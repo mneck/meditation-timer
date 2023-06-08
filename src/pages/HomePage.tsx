@@ -7,6 +7,7 @@ function HomePage() {
   return (
     <>
       <h1>Meditation Timer</h1>
+      <SelectSound />
       <h2>Bell goes here at top (potentially)</h2>
       <h2>Time adjustment settings go here (potentially)</h2>
 
@@ -16,7 +17,6 @@ function HomePage() {
       </h3>
 
       <SetTimer />
-      <SelectSound />
     </>
   );
 }
